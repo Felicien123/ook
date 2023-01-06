@@ -1,0 +1,469 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+    width: 100%;
+    height: 55px;
+   
+    position: fixed;
+    background-image: linear-gradient(#edf1f2,#e0f0f5);
+}
+
+.logo{
+    font-size: 40px;
+    font-weight: bold;
+    float: left;
+    color: rgb(21, 139, 8);
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+
+
+.head{
+    color: rgb(163, 30, 30);
+     float: right;
+     margin-right: 20px;
+}
+nav li{
+    display: inline;
+    word-spacing: 50px;
+    padding: 0px 30px;
+    font-size: 18px;
+    text-transform: uppercase;
+
+}
+
+
+.header1{
+    background-image: url(/header-ggtthh.jpg);
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    
+ }
+ .oo{
+   
+    font-size: 30px;
+  margin-left: 300px;
+  color:white;
+  font-style: italic;
+ }
+ .ooo{
+    font-size: 50px;
+  margin-left: 400px;
+  color:white;
+ }
+ 
+ .oooo{
+    font-size: 40px;
+  margin-left: 500px;
+  color:white;
+  background-color: rgb(189, 189, 61);
+  margin-right: 550px;
+ }
+ 
+ 
+ 
+ .columns{
+    float: left;
+    width: 33.3%;
+    padding: 5px;
+  
+ }
+ .row::after{
+    content: "";
+    display:table;
+    clear: both;
+    
+ }
+ 
+ *{
+    box-sizing: border-box;
+   
+ }
+ .colum{
+    float: left;
+    width: 50%;
+    padding: 5px;
+ }
+ .im1{
+   margin-left: 80px;
+ }
+ .im2{
+margin-left: 80px;
+ }
+ .im3{
+   margin-left: 70px;
+ }
+ .im4{
+   width: 600px;
+   height: 300px;
+   margin-left: 20px;
+   border-radius: 10px;
+ }
+ 
+ .im5{
+   width: 600px;
+   height: 300px;
+   border-radius: 10px;
+ }
+ 
+ .im6{
+   width: 600px;
+   height: 300px;
+   margin-left: 20px;
+   border-radius: 10px;
+ }
+ 
+ .im7{
+   width: 600px;
+   height: 300px;
+   border-radius: 10px;
+ }
+ .dis{
+   margin-left: 20px;
+   font-weight: bold;
+  
+ }
+ .log{
+   margin-left: 20px;
+   font-weight: bold;
+ }
+ .cyb{
+   font-weight: bold;
+ }
+ .hos{
+   font-weight: bold;
+ }
+ .ro::after{
+    content: "";
+    display:table;
+    clear: both;
+    width: 50%;
+ }
+
+ .break{
+   width: 250px;
+   font-weight: bold;
+   text-align: justify;
+   margin-left: 20px;
+
+ }
+ 
+ .about{
+    background-color: #141a34;
+  
+ }
+ .hillata{
+    width: 400px;
+    height: 680px;
+    float: left;
+    margin-left: 20px;
+  
+ }
+ .okk{
+    background-color: rgb(148, 121, 47);
+ }
+ .p1{
+    font-size:xx-large;
+    color: rgb(11, 162, 64); ;
+    margin-left: 450px;
+    
+ }
+ .p2{
+    color:rgb(21, 21, 106);
+    margin-left: 450px;
+    font-size: x-large;
+    
+   
+ }
+ .p3{
+    
+    color: rgba(3,70,5,1);
+    position: left;
+    
+   
+    margin-left: 450px;
+   
+    font-size: 32px;
+   
+    
+  }
+ .p4{
+    margin-left: 450px;
+    font-size: 28px;
+    font-size: x-large;
+  }
+ 
+ 
+ *{
+    margin: 0;
+    padding: 0;
+    font-family:'hoppins', sans-serif;
+    box-sizing: border-box;
+ 
+ }
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+ }
+ .container{
+    width: 100%;
+    height: 100vh;
+    background: #141a34;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ 
+ .useful-links{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+ 
+ }
+ .useful-links a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+ }
+ 
+ .container form{
+    width: 90%;
+    max-width: 500px;
+    padding: 50px 30px 20px;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+    position: relative;
+ }
+ .fa-paper-plane{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #fff;
+    font-size: 26px;
+    padding: 20px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+ }
+ 
+ .input-group{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    position: relative;
+ }
+ .input-group label{
+    flex-basis: 28%;
+ }
+ .input-group input, .input-group textarea{
+    flex-basis: 68%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 10px 0;
+    border-bottom: 1px solid #999;
+    color: #333;
+    font-size: 16px;
+ }
+ ::placeholder{
+    font-size: 14px;
+ }
+ 
+ form button{
+    background: #141a34;
+    color: #fff;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    padding: 10px 40px;
+    outline: 0;
+    cursor: pointer;
+    display: block;
+    margin: 30px auto 10px;
+ }
+ .input-group span{
+  position: absolute;
+  bottom: 12px;
+  right: 17px;
+   font-size: 14px;
+   color: red;
+ }
+ #submit-error{
+    color: red;
+ }
+ .input-group span i{
+    color: rgb(94, 94, 244);
+ }
+ .serv{
+  margin-left:20px ;
+ }
+ 
+ .cont{
+   margin-left:20px ;
+  }
+  .port{
+   margin-left:20px ;
+  }
+  .abo{
+   margin-left:20px ;
+  }
+  .abou{
+   background-color: rgb(213, 204, 204);
+  }
+.contac{
+   background-color: #327042;
+}
+
+
+
+
+
+@media screen and (max-width: 550px){
+   
+   nav li{
+      display: grid;
+      font-size: 15px;
+    margin-left: 0%
+  }
+
+  
+  
+.header1{
+   width: 100%;
+   height: 100vh;
+
+}
+.oo{
+  
+   font-size: 20px;
+ margin-left: 40px;
+ width: auto;
+}
+.ooo{
+   font-size: 20px;
+ margin-left: 40px;
+ width: auto;
+}
+
+.oooo{
+   font-size: 15px;
+ margin-left: 40px;
+ margin-right: 200px;
+ width: auto;
+}
+
+ 
+.columns{
+   
+   width: 90%;
+   padding: 5px;
+   
+ 
+}
+.colum{
+  
+   width: 90%;
+   padding: 5px;
+}
+
+.im4{
+   width: 90%;
+   height: 200px;
+   
+ }
+ 
+ .im5{
+    width: 90%;
+   height: 200px;
+   margin-left: 20px;
+ }
+ 
+ .im6{
+   width: 90%;
+   height: 200px;
+ }
+ 
+ .im7{
+   width: 90%;
+   height: 200px;
+   margin-left: 20px;
+ }
+ .cyb{
+   margin-left: 20px;
+ }
+ .hos{
+   margin-left: 20px;
+ }
+
+ .hillata{
+   width: 90%;
+   height: 600px;
+}
+.p1{
+   font-size:xx-large;
+   margin-left: 20px;
+   width: 90%;
+   
+}
+.p2{
+   
+   margin-left: 20px;
+   font-size: x-large;
+   width: 90%;
+   
+  
+}
+.p3{ 
+   margin-left: 20px;
+   width: 90%;
+ }
+.p4{
+   margin-left: 20px;
+   font-size: 28px;
+   font-size: x-large;
+ }
+
+
+ .break{
+   width: 90%;
+   
+}
+
+.container{
+   width: 40%;
+   height: 100vh;
+}
+
+.container form{
+   width: 80%;
+   max-width: 300px;
+   padding: 20px 10px 5px;
+}
+.fa-paper-plane{
+   position: absolute;
+   top: 0;
+   left: 30%;
+}
+
+.input-group{
+   width: 80%;
+}
+.input-group label{
+   flex-basis: 18%;
+}
+.input-group input, .input-group textarea{
+   flex-basis: 48%;
+
+}
+
+}
+
+ 
